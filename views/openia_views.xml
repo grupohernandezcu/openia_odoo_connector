@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Vista TREE del modelo openia -->
+    <record id="view_openia_tree" model="ir.ui.view">
+        <field name="name">openia.tree</field>
+        <field name="model">openia</field>
+        <field name="arch" type="xml">
+            <tree string="General settings">
+                <field name="name"/>
+                <field name="base_url"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Vista FORM del modelo openia -->
+    <record id="view_openia_form" model="ir.ui.view">
+        <field name="name">openia.form</field>
+        <field name="model">openia</field>
+        <field name="arch" type="xml">
+            <form string="General settings">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="base_url"/>
+                        <field name="api_key" password="True"/>
+                    </group>
+                    
+                    <group string="Model">
+                        <field name="general_message_prompt"/>
+                        <field name="message_model"/>
+                        <field name="conversation_message_prompt"/>
+                        <field name="conversation_model"/>
+                        <field name="editing_model"/>
+                        <field name="converting_model"/>
+                        <field name="image_model"/>
+                    </group>
+
+                    <group string="Generation parameters">
+                        <field name="temperature"/>
+                        <field name="top_p"/>
+                        <field name="frequency_penalty"/>
+                        <field name="presence_penalty"/>
+                        <field name="max_tokens"/>
+                        <field name="stop_sequences"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

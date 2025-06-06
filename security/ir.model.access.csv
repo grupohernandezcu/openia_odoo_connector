@@ -1,0 +1,3 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+access_open_chat,access.open.chat,model_open_chat,base.group_user,1,1,1,1
+access_openia_manager,openia_manager,model_openia,,1,1,1,1
