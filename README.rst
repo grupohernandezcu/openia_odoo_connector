@@ -39,7 +39,7 @@ Maintainer
 .. image:: https://grupohernandez.cu/wp-content/uploads/2024/07/cropped-PRINCIPAL-1-1-1.png
    :target: https://grupohernandez.cu
 
-This module is maintained by Cybrosys Technologies.
+This module is maintained by Grupo Hernández.
 
 For support and more information, please visit `Our Website <https://grupohernandez.cu/>`__
 
